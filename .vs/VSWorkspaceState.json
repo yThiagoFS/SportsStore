@@ -3,8 +3,9 @@
     "",
     "\\SportsStore",
     "\\SportsStore.Tests",
+    "\\SportsStore\\Infrastructure",
     "\\SportsStore\\Models"
   ],
-  "SelectedNode": "\\SportsStore\\Models\\StoreRepository.cs",
+  "SelectedNode": "\\SportsStore\\Infrastructure\\PageLinkTagHelper.cs",
   "PreviewInSolutionExplorer": false
 }

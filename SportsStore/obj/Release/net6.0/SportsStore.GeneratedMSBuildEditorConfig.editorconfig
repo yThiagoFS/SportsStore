@@ -16,16 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Tsilva/Documents/personal-workspace/SportsStore/SportsStore/Views/Components/NavigationMenu/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xOYXZpZ2F0aW9uTWVudVxEZWZhdWx0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Tsilva/Documents/personal-workspace/SportsStore/SportsStore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Tsilva/Documents/personal-workspace/SportsStore/SportsStore/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tsilva/Documents/personal-workspace/SportsStore/SportsStore/Views/Shared/Components/NavigationMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2aWdhdGlvbk1lbnVcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Tsilva/Documents/personal-workspace/SportsStore/SportsStore/Views/Shared/ProductSummary.cshtml]
