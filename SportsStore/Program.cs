@@ -13,6 +13,12 @@ builder.Services.AddDbContext<StoreContext>(opt =>
 
 builder.Services.AddScoped<IStoreRepository, StoreRepository>();
 
+builder.Services.AddRazorPages();
+
+builder.Services.AddDistributedMemoryCache();
+
+builder.Services.AddSession();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -24,7 +30,10 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
+
+app.UseSession();
 
 app.UseRouting();
 
@@ -47,6 +56,8 @@ app.MapControllerRoute("pagination",
     new { Controller = "Home", action = "Index", productPage = 1 });
 
 app.MapDefaultControllerRoute();
+
+app.MapRazorPages();
 
 SeedData.EnsurePopulated(app);
 

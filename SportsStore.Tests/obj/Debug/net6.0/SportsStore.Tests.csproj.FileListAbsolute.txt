@@ -1,4 +1,9 @@
 C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\obj\Debug\net6.0\SportsStore.Tests.csproj.AssemblyReference.cache
+C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\obj\Debug\net6.0\SportsStore.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\obj\Debug\net6.0\SportsStore.Tests.AssemblyInfoInputs.cache
+C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\obj\Debug\net6.0\SportsStore.Tests.AssemblyInfo.cs
+C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\obj\Debug\net6.0\SportsStore.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\bin\Debug\net6.0\testhost.dll
 C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\bin\Debug\net6.0\SportsStore.deps.json
 C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\bin\Debug\net6.0\SportsStore.runtimeconfig.json
@@ -144,11 +149,6 @@ C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\bin\D
 C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\bin\Debug\net6.0\SportsStore.dll
 C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\bin\Debug\net6.0\SportsStore.pdb
-C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\obj\Debug\net6.0\SportsStore.Tests.csproj.AssemblyReference.cache
-C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\obj\Debug\net6.0\SportsStore.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\obj\Debug\net6.0\SportsStore.Tests.AssemblyInfoInputs.cache
-C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\obj\Debug\net6.0\SportsStore.Tests.AssemblyInfo.cs
-C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\obj\Debug\net6.0\SportsStore.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\obj\Debug\net6.0\SportsStore.Tests.csproj.CopyComplete
 C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\obj\Debug\net6.0\SportsStore.Tests.dll
 C:\Users\Tsilva\Documents\personal-workspace\SportsStore\SportsStore.Tests\obj\Debug\net6.0\refint\SportsStore.Tests.dll
