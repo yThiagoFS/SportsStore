@@ -4,8 +4,11 @@
     "\\SportsStore",
     "\\SportsStore.Tests",
     "\\SportsStore\\Infrastructure",
-    "\\SportsStore\\Models"
+    "\\SportsStore\\Models",
+    "\\SportsStore\\Pages",
+    "\\SportsStore\\Views",
+    "\\SportsStore\\Views\\Shared"
   ],
-  "SelectedNode": "\\SportsStore\\Infrastructure\\PageLinkTagHelper.cs",
+  "SelectedNode": "\\SportsStore\\Infrastructure\\UrlExtensions.cs",
   "PreviewInSolutionExplorer": false
 }
