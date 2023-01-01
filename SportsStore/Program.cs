@@ -19,6 +19,11 @@ builder.Services.AddDistributedMemoryCache();
 
 builder.Services.AddSession();
 
+builder.Services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
+
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+//AddSingleton: O MESMO OBJETO DEVE SER UTILIZADO EM TODAS AS INSTÂNCIAS
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
