@@ -21,6 +21,8 @@ builder.Services.AddSession();
 
 builder.Services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
 
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 //AddSingleton: O MESMO OBJETO DEVE SER UTILIZADO EM TODAS AS INSTÂNCIAS
 
