@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\Admin\Details.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
+    <None Include="Pages\Admin\Details.razor" />
   </ItemGroup>
 
   <ItemGroup>

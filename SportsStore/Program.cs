@@ -26,6 +26,8 @@ builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 //AddSingleton: O MESMO OBJETO DEVE SER UTILIZADO EM TODAS AS INSTÂNCIAS
 
+builder.Services.AddServerSideBlazor();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -65,6 +67,10 @@ app.MapControllerRoute("pagination",
 app.MapDefaultControllerRoute();
 
 app.MapRazorPages();
+
+app.MapBlazorHub();
+
+app.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
 
 SeedData.EnsurePopulated(app);
 
