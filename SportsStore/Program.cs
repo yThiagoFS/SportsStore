@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using SportsStore.Context;
 using SportsStore.Models;
 using SportsStore.Repository;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +29,13 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 builder.Services.AddServerSideBlazor();
 
+builder.Services.AddDbContext<AppIdentityDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("IdentityConnection")));
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+    .AddEntityFrameworkStores<AppIdentityDbContext>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -43,6 +51,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseSession();
+
+app.UseAuthentication();
 
 app.UseRouting();
 
@@ -73,5 +83,7 @@ app.MapBlazorHub();
 app.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
 
 SeedData.EnsurePopulated(app);
+
+IdentitySeedData.EnsurePopulated(app);
 
 app.Run();
