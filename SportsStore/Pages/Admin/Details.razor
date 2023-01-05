@@ -1,6 +1,4 @@
 ﻿@page "/admin/products/details/{id:long}"
-@using SportsStore.Models;
-@using SportsStore.Repository;
 
 <h3 class="bg-info text-white text-center p-1">Details</h3>
 
@@ -14,7 +12,6 @@
             <th>Name</th>
             <td>@Product?.Name</td>
         </tr>
-        
         <tr>
             <th>Description</th>
             <td>@Product?.Description</td>
@@ -25,16 +22,14 @@
         </tr>
         <tr>
             <th>Price</th>
-            <td>@Product?.Price</td>
+            <td>@Product?.Price.ToString("C")</td>
         </tr>
     </tbody>
 </table>
-<NavLink class="btn btn-warning" href="@EditUrl">
-    Edit
-</NavLink>
-<NavLink class="btn btn-secondary" href="/admin/products">
-    Back
-</NavLink>
+
+<NavLink class="btn btn-warning" href="@EditUrl">Edit</NavLink>
+<NavLink class="btn btn-secondary" href="/admin/products">Back</NavLink>
+
 @code {
     [Inject]
     public IStoreRepository? Repository { get; set; }
@@ -48,6 +43,5 @@
     {
         Product = Repository?.Products.FirstOrDefault(p => p.ProductID == Id);
     }
-
     public string EditUrl => $"/admin/products/edit/{Product?.ProductID}";
 }
